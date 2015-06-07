@@ -1,0 +1,285 @@
+/* 
+    Theme Name: Graphene Child
+	Theme URI: http: // example.com/
+    Description: Child theme for Graphene theme
+    Author: David Sajdl
+    Template: graphene
+    */
+/*
+
+}
+*/
+@import url("../graphene/style.css");
+
+/* Add new changed style below this line*/
+
+/* controling footer of the pages*/
+body {
+	padding-top: 20px !important;
+}
+.default_date
+{
+  display: none !important;
+}
+.date.updated.alpha
+{
+  display: none !important;
+}
+.post-meta.clearfix
+{
+  display: none !important;
+}
+h1{
+  font-size: 4em !important;
+  font-family: Hasteridtico !important;
+  color: #2a6315 !important;
+  margin-top: -15px !important;
+  margin-left: 20px !important;
+  margin-bottom: 45px !important;
+  margin-right: 25px !important;
+  border-bottom: 2px solid !important;
+}
+h2{
+  font-size: 2em !important;
+  font-weight: bold !important;
+  color: #2a6315 !important;
+  margin-left: 25px !important;
+}
+
+h4
+{
+  font-size: 2em !important;
+  font-weight: bold !important;
+  color: #2a6315 !important;
+  margin-left: 15px !important;
+}
+p
+{
+	font-family: Hasteridtico !important;
+	color: #000000 !important;
+	font-size: 1.457em  !important;
+	margin-left: 25px !important;
+	margin-right: 10px !important;
+	line-height: 115% !important;
+}
+.address h3
+{
+  margin-left: 25px !important;
+  color: #2a6315 !important;
+  font-size: 2.15em !important;
+  font-family: Hasteridtico !important;
+}
+.footer-menu-wrap {
+  padding: 0px 25px 1px 11px;
+	margin-top: -30px !important;
+  float: right;
+}
+#footer.clearfix{
+	background: #d3eaca !important;
+}
+#footer {
+	margin-top: -15px;
+	padding-top: 20px !important;
+	margin-bottom: 40px!important;
+	min-height: 30px!important;
+	position: relative;
+	color: #999;
+	clear: both;
+}
+#copyright {
+	margin: 0 10px 20px!important;
+	max-width: 36%!important;
+}
+
+#copyright p{
+	margin-top: 10px !important;
+ margin-left: 25px !important;
+  margin-bottom: 10px; !important;
+  font: normal 1.158em Arial !important;
+}
+#copyright h3
+{
+  
+	display: none;
+} 
+
+#menu-item-338,
+#menu-item-339,
+#menu-item-337
+{
+ 	font-weight: bold;
+  font-family: Hasteridtico;
+  margin-top: 55px;
+ }
+#developer
+{
+  margin-top: -20px;
+  display: none;
+}
+.galleryImg,
+.galleryImgI,
+.galleryImgII
+{
+  background: #e7f4e2;
+  margin: -5px 15px 20px 10px;
+  padding: 10px 10px 70px 15px;
+}
+.slideShow
+{
+  background: #eff5d0;
+  margin: -5px 15px 50px 10px;
+  padding: 80px 10px 70px 205px;
+}
+.gallery-icon
+{
+  margin-bottom: -45px !important;
+}
+
+/* this hiding title post of the pages */
+.post-title.entry-title{
+	display: none;
+}
+.gutter-left
+{	
+	display: none !important;
+}
+#cntctfrm_contact_form
+{
+	margin: 35px 120px 55px 25px !important;
+}
+.nopassword
+{
+	display: none !important;
+}
+/* site map page */
+.SitemapPage
+{
+  margin-left: 25px !important;
+}
+.SitemapPage h6
+{
+  color: #2a6315  !important;
+  font-size: 2.295em !important;
+    font-family: Hasteridtico !important;
+}
+.SitemapPage ul
+{
+  font-size: 1.195em !important;
+}
+.SitemapPage a
+{
+  color: #000000 !important;
+}
+.SitemapPage li
+{
+  list-style: none !important;
+}
+.SitemapPage li a:hover
+{
+ color: #81cd81 !important;
+  text-decoration: underline !important;
+}
+.icon_social_media
+{
+  padding-left: 46.4%;
+}
+.witter
+{
+  margin-left: 2px;
+}
+#container {
+	box-shadow: none !important;
+}
+#top-bar 
+{
+	height: 10px !important; 
+}
+.entry-footer.clearfix
+{
+  display: none !important;
+}
+.menu-bottom-shadow
+{
+	display: none !important;
+}
+/*---------------------
+cotrol contact us message
+*/
+#cntctfrm_thanks
+{
+  font-size:2em;
+  margin: 0px 0px 50px 20px; 
+}
+/*---------------------------
+control of comments area
+*/
+.form-allowed-tags
+{
+  display: none
+}
+#comment-form-wrap.clearfix
+{
+  background: #ffffff !important;
+}
+h3#reply-title
+{
+  font-size: 2.55em !important;
+  font-family: Hasteridtico !important;
+  color: #2a6315 !important;
+  margin-left: 15px !important;
+}
+form#commentform
+{
+  background: #e7f4e2;
+  margin: 0px 20px 25px 20px;
+  padding-left: 0px !important;
+}
+/*Bread Crumbs */
+
+#breadcrumbs{
+font-size: 0.75em;
+margin-left: 25px;
+color: #8ccc78 !important;
+font-family: "Droid Sans", arial, serif;
+height: 25px;
+margin-top: -10px;
+  margin-bottom: 20px;
+width: 800px;
+
+}
+
+
+#breadcrumbs a{
+text-decoration: none;
+color: #2a6315 !important;
+font-size: 1em;
+font-weight:normal;
+font-family: "Droid Sans", arial, serif;
+}
+#nav_menu-4.sidebar-wrap.clearfix.widget_nav_menu a
+{
+  color: #2a6315 !important;
+}
+#nav_menu-4.sidebar-wrap.clearfix.widget_nav_menu a:hover
+{
+  color: #8ccc78 !important;
+}
+
+#breadcrumbs a:hover{
+text-decoration: underline;
+color: #8ccc78 !important;
+font-size: 1em;
+font-weight:normal;
+font-family: "Droid Sans", arial, serif;
+}
+.accessibleContent{
+  margin-right: 15px !important;
+  margin-bottom: 55px !important;
+}
+.accessibleContent h3{
+  font-size: 2.559em !important;
+  font-family: Hasteridtico !important;
+  color: #2a6315 !important;
+  margin-bottom: -5px !important;
+  margin-left: 25px !important;
+}
